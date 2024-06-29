@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<header> 
+    <nav class="nav">
+        <div>
+            <img src="images/logo.png">
+        </div>
+        <ul class="nav-li">
+            <li> Home </li>
+            <li> Acerca de </li>
+            <li> Servicios </li>
+            <li> Paquetes Personalizados </li>
+        </ul>
+    <div>
+        <a class="contacto"> Contacto </a>
+    </div>
+    </nav>
+</header>
+<hr>
+
+<style> 
+
+.nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 8px 30px;
+}
+
+.nav-li {
+    list-style: none;
+    display:flex;
+    padding: 10px;
+}
+
+.nav-li li {
+    margin-left: 110px;
+}
+
+.contacto {
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #000;
+    padding: 15px 70px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+</style>
+
+<main class="imagen-1"> 
+    <img src="images/buffet-1.jpg">
+
+    <div class="Texto-1">
+        <h1> SERVICIOS DE CATERING <br> PARA TODA OCASIÓN </h1>
+    </div>
+</main>
+
+<style> 
+
+.imagen-1 {
+    position: relative;
+    width: 100%;
+    height: 600px; 
+  }
+
+.imagen-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.Texto-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(251, 255, 7);
+    text-align: center;
+    font-size: 30px; 
+}
+
+</style> 
+
+<article class="article-1"> 
+    <section class="section-1">
+    <img src="images/buffet-section.jpg">
+        <div class="contentedor">
+            <h1 class="texto-1"> Quiénes Somos </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur neque eveniet <br> impedit laborum minima quas voluptatum, natus tempore vel architecto <br> doloremque, velit illo iure, rem at aliquam veniam, in dolorum.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Unde perferendis sed rem <br> ad quae consectetur nobis corrupti necessitatibus voluptatibus modi deleniti, sequi <br> praesentium incidunt illo explicabo? Sint aspernatur sunt adipisci!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Qui eos nihil, non sit <br> dolore dolorum aliquam debitis provident rem atque modi ea labore et numquam <br> rerum cum? Reprehenderit, rerum?</p>
+        </div>
+    </section>
+</article>
+
+<style>
+
+.article-1 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+  }
+
+.section-1 {
+    max-width: 1400px;
+    width: 300%;
+    display:flex;
+}
+
+.section-1 img {
+    margin-right: 30px;
+}
+
+.texto-1 {
+    text-align: center;
+    margin-top: 0;
+    font-size:x-large;
+}
+
+</style>
+
+<section class="imagen-2"> 
+    <div>
+        <img src="images/food-table.jpg">
+    </div>
+    <div class="Texto-2">
+        <h1> Proveemos soluciones premium de catering <br> para eventos formales o casuales. </h1>
+    </div>
+</section>
+
+<style> 
+
+.imagen-2 {
+    position:relative;
+    width: 100%;
+    height: 250px;
+    overflow:hidden;
+}
+
+.imagen-2 img {
+    position: absolute;
+    top: 170%;
+    left: 50%;
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.Texto-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:aliceblue;
+    text-align: center;
+}
+
+</style> 
+
+<section class="section-2">
+    <div class="contenedor-div"> 
+        <h1> NUESTROS SERVICIOS </h1>
+    </div>
+    <div class="div-todo"> 
+        <div class="div-1"> 
+            <img src="images/wedding.jpg">
+            <h3> Bodas </h3>
+        </div>
+        <div class="div-1"> 
+            <img src="images/woman-flowers-holidays-girl.jpg">
+            <h3> Eventos Corporativos </h3>
+        </div>
+        <div class="div-1"> 
+            <img src="images/hands-summer-party-colorful.jpg">
+            <h3> Reuniones Familiares </h3>
+         </div>
+    </div>
+</section>
+
+<style>
+
+.section-2 {
+    text-align: center;
+    padding: 50px;
+}
+    
+.contenedor-div {
+    font-size: 20px;
+    padding: 35px;
+}
+.div-todo {
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 17px;
+}
+
+.div-1 img {
+    width: 80%;
+}
+    
+</style>
+
+<div align="center" class="div-2"> 
+    <br>
+    <br>
+    <br>
+    <h1> PAQUETES DE CATERING </h1>
+    <p> Contamos con paquetes personalizados a la medida de tus necesidades </p>
+</div>
+<section class="section-3">
+    <div class="contenedor-article"> 
+        <article class="contenedor-2">
+            <h2> Silver </h2>
+            <p> $15.99 / persona </p>
+            <ul> 
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> - </li>
+                <li> - </li>
+                <li> - </li>
+                <li> - </li>
+            </ul>
+        </article>
+        <article class="contenedor-2"> 
+            <h2> Gold </h2>
+            <p> $19.99 / persona </p>
+            <ul> 
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> - </li>
+                <li> - </li>
+            </ul>
+        </article>
+        <article class="contenedor-2">
+            <h2> Platinum </h2>
+            <p> $29.99 / persona </p>
+            <ul>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+                <li> Lorem consequatur aperiam </li>
+        </article>
+    </div>
+</section>
+
+<style>
+
+.div-2 {
+    padding: 25px;
+}
+.section-3 {
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 35px;
+}
+
+.contenedor-article {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.contenedor-2 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+}
+
+.contenedor-2 h2 {
+    margin: -10px -20px;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.contenedor-2 p {
+    font-size: 20px;
+    margin: 25px;
+    text-align: center;
+}
+
+.contenedor-2 ul li {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+</style>
+
+<section class="section-4"> 
+    <div class="informacion-2">
+        <h2>CONTACTO</h2>
+        <p>Dirección: Broadway & Morris St, New York, NY 10006</p>
+        <p>Teléfono: 1-234-567-8910</p>
+        <p>Email: info@email.com</p>
+    </div>
+    <form class="form-1">
+        <div class="div-total">
+            <div class="div-3">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+            </div>
+            <div class="div-3">
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono">
+            </div>
+            <div class="div-3">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+        </div>
+        <div class="div-total">
+            <label for="comentario">Escribe un comentario:</label>
+            <textarea id="comentario" name="comentario"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+<style> 
+
+.section-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;
+}
+    
+.informacion-2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+    
+.form-1 {
+    width: 100%;
+    max-width: 1150px;
+}
+    
+.div-total {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+    
+.div-3 {
+    flex: 1;
+    min-width: 100px;
+    padding: 10px;
+}
+    
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+    
+textarea {
+    height: 130px;
+}
+    
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    width: 20%;
+}
+    
+</style>
+
+
+</body>
+</html>
+
